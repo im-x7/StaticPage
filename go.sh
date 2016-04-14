@@ -22,7 +22,7 @@ function devbuild(){
     while true;do
     read -p "cnpm install  : " yn
     case $yn in
-        [Yy]* ) npm install ;break;;
+        [Yy]* ) cnpm install ;break;;
         [Nn]* ) exit;;
         * ) echo "请回答y或者N: " ;;
         esac
