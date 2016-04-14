@@ -20,7 +20,7 @@ function gitchange(){
 function devbuild(){
     echo "安装NPM依赖包?是否执行(y,N)?: "
     while true;do
-    read -p "npm install  : " yn
+    read -p "cnpm install  : " yn
     case $yn in
         [Yy]* ) npm install ;break;;
         [Nn]* ) exit;;

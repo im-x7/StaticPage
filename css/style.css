@@ -1,53 +1,61 @@
-@charset "utf-8";
-/*顶部为我们常用的reset样会死*/
-body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
-    margin: 0;
-    padding: 0
-}
+/** 
+* Project : gzrh 
+* Author : IMX7 
+* Updated : Thu Apr 14 2016 15:39:19 
+*/ 
 
-body,button,input,select,textarea {
-    font: 12px/1.5 arial,sans-serif,'宋体';
-    color: #1C1C1C
-}
+@charset "UTF-8";
+/**
+ * StaticPage 自动
+ * url: http://this.is26.com
+ * blog: http://luolei.org
+ */
+/* 精简后的Reset样式:适用于桌面项目 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
 
-h1,h2,h3,h4,h5,h6 {
-    font-size: 100%
-}
+body, button, input, select, textarea {
+  font: 12px/1.5 arial,sans-serif,'宋体';
+  color: #1C1C1C; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
 
 html {
-    _background-image: url(about:blank);
-    _background-attachment: fixed
-}
+  _background-image: url(about:blank);
+  _background-attachment: fixed; }
 
-em,i {
-    font-style: normal
-}
+em, i {
+  font-style: normal; }
 
-ul,ol {
-    list-style: none
-}
+ul, ol {
+  list-style: none; }
 
 a {
-    text-decoration: none;
-    color: #1C1C1C;
-    outline: 0;
-    _blr: expression(this.onFocus=this.blur())
-}
+  text-decoration: none;
+  color: #1C1C1C;
+  outline: 0;
+  _blr: expression(this.onFocus=this.blur()); }
 
 a:hover {
-    color:  #ddffde;
-    text-decoration: underline
-}
+  color: #ddffde;
+  text-decoration: underline; }
 
-fieldset,img {
-    border: 0
-}
+fieldset, img {
+  border: 0; }
 
-button,input,select,textarea {
-    font-size: 100%
-}
+button, input, select, textarea {
+  font-size: 100%; }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0
-}
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 此处可以自定义设置Sass的变量 */
+/* Sass基础样式 */
+/* 针对不同分辨率的适配可以根据需求自定义 */
+@media only screen and (min-width: 481px) {
+  /* 适配480分辨率 */ }
+
+/*# sourceMappingURL=style.css.map */
