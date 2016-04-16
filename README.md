@@ -1,17 +1,14 @@
 StaticPage 静态页面自动化工具
 ==========
-![banner](http://file.is26.com/wp-image/2014/03/smart-with-static.jpg)
 
 A tool for quickly creating a static page project .Based on Grunt.
 
 StaticPage是一套旨在提高静态页面开发效率、快速生成模板、开发的的工具。
 
-图文教程可参考博文:[《让前端工作更快、更智能:利用StaticPage自动化工作流》](http://luolei.org/2014/03/front-end-dev-with-grunt-staticpage-workflow/)。
-
 
 ####一键脚本安装包
 
-2014年3月27日更新:为了让大家更加方便，写了一个脚本，直接在终端运行以下命令就可以一键(1.git clone 2.重命名 3.修改项目配置 等)配置好所有的文件，不用再一个一个打开文件修改文件。脚本为`go.sh`文件，OSX系统下`sh go.sh`即可执行，大家看下就能理解。
+为了让大家更加方便，写了一个脚本，直接在终端运行以下命令就可以一键(1.git clone 2.重命名 3.修改项目配置 等)配置好所有的文件，不用再一个一个打开文件修改文件。脚本为`go.sh`文件，OSX系统下`sh go.sh`即可执行，大家看下就能理解。
 
 ````
 git clone https://github.com/im-x7/StaticPage.git && cd StaticPage && sh go.sh
