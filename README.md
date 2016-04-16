@@ -14,7 +14,7 @@ StaticPage是一套旨在提高静态页面开发效率、快速生成模板、�
 2014年3月27日更新:为了让大家更加方便，写了一个脚本，直接在终端运行以下命令就可以一键(1.git clone 2.重命名 3.修改项目配置 等)配置好所有的文件，不用再一个一个打开文件修改文件。脚本为`go.sh`文件，OSX系统下`sh go.sh`即可执行，大家看下就能理解。
 
 ````
-git clone https://github.com/foru17/StaticPage.git && cd StaticPage && sh go.sh
+git clone https://github.com/im-x7/StaticPage.git && cd StaticPage && sh go.sh
 ````
 
 ####克隆本仓库
@@ -22,22 +22,18 @@ git clone https://github.com/foru17/StaticPage.git && cd StaticPage && sh go.sh
 在开发目录下执行：
 
 ````
-git clone https://github.com/foru17/StaticPage.git
-````
-
-访问Github较慢的同学可使用该仓库在阿里云的镜像，该镜像与Github上自动同步。
-
-````
-git clone http://git.is26.com/StaticPage.git
+git clone https://github.com/im-x7/StaticPage.git
 ````
 
 
-####安装Npm依赖包
+
+
+####安装cnpm依赖包
 
 详细的依赖包清单请参考`package.json`文件，Grunt相关配置请看`Gruntfile.js`
 
 ````
-npm install
+cnpm install
 ````
 
 安装完毕之后，你将得到如下的文件结构
